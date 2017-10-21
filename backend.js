@@ -21,9 +21,9 @@ app.route("/")
 
 
 //If there is a 500 error, run this
-app.use(function(err, req, res, next){
-    console.error(err.stack);
-    res.status(500).send("Server-Side Error");
+app.use(function(err, req,res,next){
+    console.error(err.stack)
+    res.status(500).send("Something broke :/");
 })
 
 //if neither a page router or error were triggered then we 
@@ -33,7 +33,7 @@ app.use(function(req, res, next){
     res.sendfile(path.join(__dirname+"/views/status404.html"))
 })
 
-app.listen(app.get("port", function(){
-    console.log("Node app is running on port", app.get("port"));
-}))
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 
