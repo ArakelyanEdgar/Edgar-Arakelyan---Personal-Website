@@ -2,13 +2,13 @@ var express = require("express");
 var path = require("path");
 var app = express();
 
-app.set("port", (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 5000));
 
-//Add static directories to make life easier
+
+
 app.use(express.static(path.join(__dirname+"/views")));
 app.use(express.static(path.join(__dirname+"/styles")))
 app.use(express.static(path.join(__dirname+"/javascript")))
-
 
 
 //Routers ------------------------------------------------------------
