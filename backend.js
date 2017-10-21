@@ -5,7 +5,7 @@ var app = express();
 app.set('port', (process.env.PORT || 5000));
 
 
-
+//Serving static files so it is easier when referencing them
 app.use(express.static(path.join(__dirname+"/views")));
 app.use(express.static(path.join(__dirname+"/styles")))
 app.use(express.static(path.join(__dirname+"/javascript")))
