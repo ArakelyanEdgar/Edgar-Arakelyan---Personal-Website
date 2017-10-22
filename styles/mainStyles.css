@@ -5,9 +5,16 @@
 
 #exposition {
     padding-top: 25%;
-    font-size: 110%;
 }
 
 #name {
     padding-top: 5%;
+}
+
+#future{
+    padding-top: 5%;
+}
+
+p{
+    font-size: 125%;
 }
