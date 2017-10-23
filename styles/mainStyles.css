@@ -17,8 +17,27 @@
     margin-left: 41%;
 }
 
-#future{
+#about_me{
     padding-top: 5%;
+}
+
+#span1{
+    color: blue;
+}
+#span2{
+    color: orange;
+}
+#span3{
+    color: red;
+}
+#span4{
+    color: green;
+}
+#span5{
+    color: yellow;
+}
+#span6{
+    color: brown;
 }
 
 p{
