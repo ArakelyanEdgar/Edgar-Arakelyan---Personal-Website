@@ -25,6 +25,15 @@
     padding-top: 30%;
 }
 
+#project{
+    padding-top: 15%;
+    margin-left: 20%;
+}
+
+#project p{
+    padding-top: 10%;
+}
+
 #span1{
     color: blue;
 }
