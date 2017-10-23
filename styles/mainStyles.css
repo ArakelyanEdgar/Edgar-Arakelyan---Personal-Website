@@ -1,14 +1,19 @@
-#introduction {
+#hello {
     padding-top: 7%; 
-    margin-right: 12%;
+    margin-left: 50%;
 }
 
 #exposition {
     padding-top: 25%;
 }
 
-#name {
+#name1 {
     padding-top: 5%;
+    margin-left: 20%;
+}
+
+#name2 {
+    margin-left: 5%;
 }
 
 #future{
