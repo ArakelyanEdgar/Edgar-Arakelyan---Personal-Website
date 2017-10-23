@@ -1,7 +1,7 @@
 #hello {
     padding-top: 7%; 
     margin-left: 35%;
-    font-size: 150%;
+    font-size: 250%;
 }
 
 #exposition {
@@ -14,7 +14,7 @@
 }
 
 #name2 {
-    margin-left: 41%;
+    margin-left: 35%;
 }
 
 #about_me{
@@ -70,5 +70,5 @@ p{
 }
 
 h1{
-    font-size: 310%;
+    font-size: 410%;
 }
