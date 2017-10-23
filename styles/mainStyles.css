@@ -1,6 +1,7 @@
 #hello {
     padding-top: 7%; 
-    margin-left: 50%;
+    margin-left: 35%;
+    font-size: 150%;
 }
 
 #exposition {
@@ -13,7 +14,7 @@
 }
 
 #name2 {
-    margin-left: 5%;
+    margin-left: 45%;
 }
 
 #future{
@@ -22,4 +23,8 @@
 
 p{
     font-size: 125%;
+}
+
+h1{
+    font-size: 150%;
 }
