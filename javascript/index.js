@@ -17,8 +17,8 @@ var showText = function (target, message, index, interval) {
 }
 var hobbies = ["soccer", "learning", "rpgs","math","software","warfilms","exercise","automation","hiphop","manchesterunited"];
 var para1 = "I am a student at the University of Nevada, Las Vegas seeking a B.S in both mathematics and computer science."
-var para2 = "I only recently discovered  my passion"+
-            "for software development. Programming gives me an intellectual stimulus"+
+var para2 = "I only recently discovered  my passion "+
+            "for software development. Programming gives me an intellectual stimulus "+
             "that I thought only math provided, thus I am a bit late to the party!";
 var para3 = "I love";
 var para4 = "Nonetheless, I seek company in creating products that will change how society thinks of the present and the future!"
@@ -37,7 +37,7 @@ $(function (){
         showText("#text2", para2, 0, 60).then(function(){
             showText("#text3", para3, 0, 60).then(function(){
                 for (var i = 1; i < hobbies.length; i++){
-                    showText("span" + i, hobbies[i], 0, 60)
+                    showText("span" + i.toString(), hobbies[i], 0, 60)
                 }
                 showText("#text4", para4, 0, 60).then(function(){
                     showText("#text5", para5, 0, 60).then(function(){
