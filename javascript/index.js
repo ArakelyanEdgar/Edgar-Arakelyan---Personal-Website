@@ -39,7 +39,7 @@ $(function (){
                // showText("#span" + String(i), hobbies[i-1], 0, 500)
             //}
             $.each(hobbies, function(index, value){
-                showText("#span" + String(index+1), hobbies[i], 0, 500)
+                showText("#span" + String(index+1), hobbies[index], 0, 500)
             })
             showText("#text3", para3, 0, 60).then(function(){
                 showText("#text4", para4, 0, 60).then(function(){
