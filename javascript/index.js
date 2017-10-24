@@ -19,8 +19,27 @@ var showText = function (target, message, index, interval) {
 
 
 $(function (){
-    $("#name1").addClass("animated slideInLeft").then(function(){
-        $("#name2").addClass("animated slideInRight");
+    $("#name1").addClass("animated slideInLeft");
+    $("#name2").addClass("animated slideInRight");
+
+    var para1 = $("#exposition").text();
+    var para2 = $("about1").text();
+    var para2 = $("about2").text();
+    var para2 = $("about3").text();
+    var para2 = $("project1").text();
+    var para2 = $("project2").text();
+
+
+    showText("#exposition", para1, 0, 60).then(function(){
+        showText("#about1", para2, 0, 60).then(function(){
+            showText("#about2", para3, 0, 60).then(function(){
+                showText("#about3", para4, 0, 60).then(function(){
+                    showText("#project1", para5, 0, 60).then(function(){
+                        showText("#project2", para6, 0, 60);
+                    })
+                })
+            })
+        });   
     })
 })
 
