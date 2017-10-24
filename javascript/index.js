@@ -38,12 +38,11 @@ $(function (){
             
             $.each(hobbies, function(index, value){
                 showText("#span" + String(index+1), hobbies[index], 0, 500)
-            }).then(function(){
-                showText("#text3", para3, 0, 60).then(function(){
-                    showText("#text4", para4, 0, 60).then(function(){
-                        showText("#text5", para5, 0, 200).then(function(){
-                            showText("#text6", para6, 0, 60);
-                        })
+            })
+            showText("#text3", para3, 0, 60).then(function(){
+                showText("#text4", para4, 0, 60).then(function(){
+                    showText("#text5", para5, 0, 200).then(function(){
+                        showText("#text6", para6, 0, 60);
                     })
                 })
             })
