@@ -35,10 +35,10 @@ $(function (){
 
     showText("#text1", para1, 0, 60).then(function(){
         showText("#text2", para2, 0, 60).then(function(){
+            for (var i = 1; i < hobbies.length; i++){
+                showText("#span" + String(i), hobbies[i-1], 0, 150)
+            }
             showText("#text3", para3, 0, 60).then(function(){
-                for (var i = 1; i < hobbies.length; i++){
-                    showText("#span" + String(i), hobbies[i-1], 0, 60)
-                }
                 showText("#text4", para4, 0, 60).then(function(){
                     showText("#text5", para5, 0, 60).then(function(){
                         showText("#text6", para6, 0, 60);
