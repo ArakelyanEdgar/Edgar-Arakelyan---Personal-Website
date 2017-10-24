@@ -24,7 +24,7 @@ var para2 = "I only recently discovered  my passion "+
 var para3 = "I love: soccer learning rpgs math software warfilms exercise automation hiphop manchesterunited"
 var para4 = "Nonetheless, I seek company in creating products that will change how society thinks of the present and the future!"
 var para5 = "Projects";
-var para6 = "Wait, its empty here? Yes, I have only just found my desire for software engineering. I'm currently working on a peer-to-peer lending platform. Hopefully I have a minimum viable product by the time you're reading.";
+var para6 = "Wait, its empty here? Yes, I have only just found my desire for software engineering. I'm currently working on a peer-to-peer lending platform. Hopefully I have a minimum viable product by the time you're reading this.";
 
 $(function (){
     $("#name1").addClass("animated slideInLeft");
