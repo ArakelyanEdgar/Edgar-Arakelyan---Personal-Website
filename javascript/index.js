@@ -20,7 +20,7 @@ var para1 = "I am a student at the University of Nevada, Las Vegas seeking a B.S
 var para2 = "I only recently discovered  my passion "+
             "for software development. Programming gives me an intellectual stimulus "+
             "that I thought only math provided, thus I am a bit late to the party!";
-var para3 = "I love";
+var para3 = "are the things that I enjoy";
 var para4 = "Nonetheless, I seek company in creating products that will change how society thinks of the present and the future!"
 var para5 = "Projects";
 var para6 = "Wait, its empty here? Yes, I have only just found my desire for software engineering. I'm currently working on a peer-to-peer lending platform. Hopefully I have a minimum viable product by the time you're reading.";
@@ -36,11 +36,11 @@ $(function (){
     showText("#text1", para1, 0, 60).then(function(){
         showText("#text2", para2, 0, 60).then(function(){
             for (var i = 1; i < hobbies.length; i++){
-                showText("#span" + String(i), hobbies[i-1], 0, 150)
+                showText("#span" + String(i), hobbies[i-1], 0, 200)
             }
             showText("#text3", para3, 0, 60).then(function(){
                 showText("#text4", para4, 0, 60).then(function(){
-                    showText("#text5", para5, 0, 60).then(function(){
+                    showText("#text5", para5, 0, 200).then(function(){
                         showText("#text6", para6, 0, 60);
                     })
                 })
