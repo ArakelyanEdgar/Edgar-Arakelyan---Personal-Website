@@ -18,8 +18,12 @@ var showText = function (target, message, index, interval) {
 
 
 $("#name1").addClass("animated slideInLeft");
+$("#name2").addClass("animated slideInRight");
+
 
 //sliding in each character in Arakelyan one by one
+//not working yet, fix later
+/*
 $(function () { 
 
     var arakelyan = $("#name2");
@@ -31,5 +35,6 @@ $(function () {
     }
     arakelyan.append(content);
 
-    
+
 });  
+*/
