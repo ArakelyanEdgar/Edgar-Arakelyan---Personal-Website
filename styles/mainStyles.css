@@ -76,12 +76,4 @@ h1{
     font-size: 410%;
 }
 
-.darkness{
-    background: url('/backgrounds/darkness.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0;
-    height: 100%;
-}
+
