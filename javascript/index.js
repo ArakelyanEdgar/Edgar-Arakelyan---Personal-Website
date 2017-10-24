@@ -24,11 +24,12 @@ var para3 = "I love";
 var para4 = "Nonetheless, I seek company in creating products that will change how society thinks of the present and the future!"
 var para5 = "Projects";
 var para6 = "Wait, its empty here? Yes, I have only just found my desire for software engineering. I'm currently working on a peer-to-peer lending platform. Hopefully I have a minimum viable product by the time you're reading.";
-
+$("#name2").empty()
 
 $(function (){
     $("#name1").addClass("animated slideInLeft");
     $("#name2").addClass("animated slideInRight");
+    $("#name2").append("Arakelyan");
 
     
 
