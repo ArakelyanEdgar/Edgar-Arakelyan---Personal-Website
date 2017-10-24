@@ -78,6 +78,8 @@ h1{
 
 .darkness{
     background: url('/backgrounds/darkness.png') repeat 0 0;
-    width:100%;
-    height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
