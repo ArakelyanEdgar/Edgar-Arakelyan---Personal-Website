@@ -21,8 +21,9 @@ var para2 = "I only recently discovered  my passion"+
             "for software development. Programming gives me an intellectual stimulus"+
             "that I thought only math provided, thus I am a bit late to the party!";
 var para3 = "I love";
-var para4 = "Projects";
-var para5 = "Wait, its empty here? Yes, I have only just found my desire for software engineering. I'm currently working on a peer-to-peer lending platform. Hopefully I have a minimum viable product by the time you're reading.";
+var para4 = "Nonetheless, I seek company in creating products that will change how society thinks of the present and the future!"
+var para5 = "Projects";
+var para6 = "Wait, its empty here? Yes, I have only just found my desire for software engineering. I'm currently working on a peer-to-peer lending platform. Hopefully I have a minimum viable product by the time you're reading.";
 
 
 $(function (){
@@ -32,12 +33,15 @@ $(function (){
     
 
 
-    showText("#exposition", para1, 0, 60).then(function(){
-        showText("#about1", para2, 0, 60).then(function(){
-            showText("#about2", para3, 0, 60).then(function(){
-                showText("#about3", para4, 0, 60).then(function(){
-                    showText("#project1", para5, 0, 60).then(function(){
-                        showText("#project2", para6, 0, 60);
+    showText("#text1", para1, 0, 60).then(function(){
+        showText("#text2", para2, 0, 60).then(function(){
+            showText("#text3", para3, 0, 60).then(function(){
+                for (var i = 1; i < hobbies.length; i++){
+                    showText("span" + i, hobbies[i], 0, 60)
+                }
+                showText("#text4", para4, 0, 60).then(function(){
+                    showText("#text5", para5, 0, 60).then(function(){
+                        showText("#text6", para6, 0, 60);
                     })
                 })
             })
