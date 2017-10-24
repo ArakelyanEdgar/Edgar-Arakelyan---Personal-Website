@@ -29,7 +29,7 @@ $("#name2").empty()
 $(function (){
     $("#name1").addClass("animated slideInLeft");
     $("#name2").addClass("animated slideInRight");
-    $("#name2").append("Arakelyan");
+    $("#name2 > p").append("Arakelyan");
 
     
 
