@@ -1,4 +1,4 @@
-/*
+
 //A function that will output a text letter by letter
 var showText = function (target, message, index, interval) {
     return new Promise((resolve,reject) => {
@@ -16,14 +16,20 @@ var showText = function (target, message, index, interval) {
     });
 }
 
+
+$("#name1").addClass("animated slideInLeft");
+
+//sliding in each character in Arakelyan one by one
 $(function () { 
-    showText("#text1", para1, 0, 60).then(function(){
-        showText("#text2", para1, 0, 60).then(function(){
-            showText("#text3", para1, 0, 60)
-        });   
-    })
+
+    var arakelyan = $("#name2");
+    var characters = arakelyan.text().split("");
+    arakelyan.empty();
+    var content = "";
+    for (var i = 0; i < characters.length; i++){
+        content += "<span class='animated slideInRight'>" + characters[i] + "</span>"
+    }
+    arakelyan.append(content);
+
+    
 });  
-
-*/
-$("#name2").addClass("animated slideInLeft");
-
