@@ -35,9 +35,12 @@ $(function (){
 
     showText("#text1", para1, 0, 60).then(function(){
         showText("#text2", para2, 0, 60).then(function(){
-            for (var i = 1; i < hobbies.length; i++){
-                showText("#span" + String(i), hobbies[i-1], 0, 500)
-            }
+            //for (var i = 1; i < hobbies.length; i++){
+               // showText("#span" + String(i), hobbies[i-1], 0, 500)
+            //}
+            $.each(hobbies, function(index, value){
+                showText("#span" + String(index+1), hobbies[i], 0, 500)
+            })
             showText("#text3", para3, 0, 60).then(function(){
                 showText("#text4", para4, 0, 60).then(function(){
                     showText("#text5", para5, 0, 200).then(function(){
