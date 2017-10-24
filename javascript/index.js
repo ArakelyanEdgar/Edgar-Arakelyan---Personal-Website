@@ -17,8 +17,12 @@ var showText = function (target, message, index, interval) {
 }
 
 
-$("#name1").addClass("animated slideInLeft");
-$("#name2").addClass("animated slideInRight");
+
+$(function (){
+    $("#name1").addClass("animated slideInLeft").then(function(){
+        $("#name2").addClass("animated slideInRight");
+    })
+})
 
 
 //sliding in each character in Arakelyan one by one
