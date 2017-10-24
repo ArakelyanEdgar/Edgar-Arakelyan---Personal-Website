@@ -15,12 +15,13 @@ var showText = function (target, message, index, interval) {
 
     });
 }
-var hobbies = ["soccer", "learning", "rpgs","math","software","warfilms","exercise","automation","hiphop","manchesterunited"];
+//var hobbies = ["soccer", "learning", "rpgs","math","software","warfilms","exercise","automation","hiphop","manchesterunited"];
 var para1 = "I am a student at the University of Nevada, Las Vegas seeking a B.S in both mathematics and computer science."
 var para2 = "I only recently discovered  my passion "+
             "for software development. Programming gives me an intellectual stimulus "+
             "that I thought only math provided, thus I am a bit late to the party!";
-var para3 = "are the things that I enjoy";
+//var para3 = "are the things that I enjoy";
+var para3 = "I love: soccer learning rpgs math software warfilms exercise automation hiphop manchesterunited"
 var para4 = "Nonetheless, I seek company in creating products that will change how society thinks of the present and the future!"
 var para5 = "Projects";
 var para6 = "Wait, its empty here? Yes, I have only just found my desire for software engineering. I'm currently working on a peer-to-peer lending platform. Hopefully I have a minimum viable product by the time you're reading.";
@@ -36,9 +37,9 @@ $(function (){
     showText("#text1", para1, 0, 60).then(function(){
         showText("#text2", para2, 0, 60).then(function(){
             
-            $.each(hobbies, function(index, value){
-                showText("#span" + String(index+1), hobbies[index], 0, 500)
-            })
+           // $.each(hobbies, function(index, value){
+             //   showText("#span" + String(index+1), hobbies[index], 0, 500)
+            //})
             showText("#text3", para3, 0, 60).then(function(){
                 showText("#text4", para4, 0, 60).then(function(){
                     showText("#text5", para5, 0, 200).then(function(){
